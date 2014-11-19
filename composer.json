@@ -21,9 +21,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "linkorb/jsmin-php": "dev-master",
-		"natxet/CssMin": "3.0.*@dev"
+        "php": ">=5.0.0"
     },
     "autoload": {
         "psr-0": {
