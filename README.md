@@ -1,4 +1,4 @@
 ScriptMerge
 ===========
 
-Merge multiple CSS or Javascript into single file and optionally minify the output file
+Zend Framework 2 Module that merge multiple CSS or Javascript into single file and optionally minify the output.

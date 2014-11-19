@@ -1,0 +1,34 @@
+{
+    "name":        "rrcom/script-merge",
+    "description": "Zend Framework 2 Module that merge multiple CSS or Javascript into single file and optionally minify the output.",
+    "type":        "library",
+    "license":     "MIT",
+    "homepage":    "https://github.com/RRcom/ScriptMerge",
+    "keywords":    [
+        "minify",
+        "javascript",
+        "css",
+        "module",
+        "zf2",
+		"merge"
+    ],
+    "authors":     [
+        {
+            "name": "Restituto Rizal",
+            "email": "resty_rizal@live.com",
+            "homepage": "https://github.com/RRcom",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "linkorb/jsmin-php": "dev-master",
+		"natxet/CssMin": "3.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "RrcomScriptMerge\\": "src/"
+        }
+    }
+}
