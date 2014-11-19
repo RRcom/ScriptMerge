@@ -1,0 +1,42 @@
+<?php
+return array(
+    'rrcom-script-merge' => array (
+        'enable' => true,
+        'css' => array (
+            'css-test-1' => array (
+                'minify' => true,
+                'output' => getcwd().'/public/assets/css/sample-css-1.css',
+                'files' => array (
+                    __DIR__ . '/../assets/css/sample-side-1.css',
+                    __DIR__ . '/../assets/css/sample-body-1.css',
+                ),
+            ),
+            'css-test-2' => array (
+                'minify' => true,
+                'output' => getcwd().'/public/assets/css/sample-css-2.css',
+                'files' => array (
+                    __DIR__ . '/../assets/css/sample-side-2.css',
+                    __DIR__ . '/../assets/css/sample-body-2.css',
+                ),
+            ),
+        ),
+        'js' => array(
+            'js-test-1' => array (
+                'minify' => true,
+                'output' => getcwd().'/public/assets/js/sample-js-1.js',
+                'files' => array (
+                    __DIR__ . '/../assets/js/sample-js-1.js',
+                    __DIR__ . '/../assets/js/sample-js-2.js',
+                ),
+            ),
+            'js-test-2' => array (
+                'minify' => true,
+                'output' => getcwd().'/public/assets/js/sample-js-2.js',
+                'files' => array (
+                    __DIR__ . '/../assets/js/sample-js-3.js',
+                    __DIR__ . '/../assets/js/sample-js-4.js',
+                ),
+            ),
+        ),
+    ),
+);
